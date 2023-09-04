@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #fff;
-   /* transition: .2s; */
+    /* transition: .2s; */
 }
 button,a{
     cursor: pointer;
@@ -18,7 +18,7 @@ button:hover{
     transform: scale(1.2);
 }
 html,body{
-    scroll-behaviour:smooth;
+    scroll-behavior: smooth;
 }
 body{
     height: 100vh;
@@ -82,14 +82,14 @@ header{
 }
 #nav{
     flex: 1;
-    max-width: 550px;
+    max-width: 650px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #nav a{
     padding: .15rem 0 ;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
 }
 #nav a::after{
@@ -172,10 +172,13 @@ header{
         max-width:100%;
         width: 100%;
         justify-content: space-evenly;
-        background: rgba(0,0,0,.8);
+        background: rgba(0,0,0,.5);
         backdrop-filter: blur(10px);
         z-index: -1;
     }
+    /* #nav>*{
+        opacity: 0;
+    } */
     #nav a{
         width:100%;
         margin: 15px 0;

@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #fff;
-    /* transition: .2s; */
+    transition: .2s;
 }
 button,a{
     cursor: pointer;
@@ -242,7 +242,7 @@ footer{
 footer span{
     font-family: monospace;
     padding-left: min(3rem, 5%);
-    font-size:.8rem;
+    font-size:.9rem;
 }
 /* Social-Media Starts */
 

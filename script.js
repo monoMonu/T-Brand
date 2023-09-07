@@ -23,4 +23,4 @@ hamburger.addEventListener("click",()=>{
 })
 
 // Disabling Right Click
-// window.addEventListener("contextmenu", e => e.preventDefault());
+window.addEventListener("contextmenu", e => e.preventDefault());
